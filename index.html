@@ -399,7 +399,7 @@
 	    <div class="experience-item mb-4">
       <h3>Professional Services Engineer – Mg Paradigm</h3>
       <h4>Jan 2026 – Present | Amman, Jordan</h4>
-      <ul>
+      <ul class="experience-list">
         <li>Support and manage GRC systems across Compliance, Risk Management, and Audit, including client support, system configuration, requirements, and issue resolution.</li>
         <li>Participate in client meetings and requirements discussions, understanding business and system needs and translating them into practical GRC solutions.</li>
         <li>Support GRC workflows, documentation, reporting, and system enhancements based on client and organizational requirements.</li>
@@ -413,7 +413,7 @@
     <div class="experience-item mb-4">
       <h3>Cybersecurity Trainee – Central Bank of Jordan</h3>
       <h4>Jul – Sep 2025 | Amman, Jordan</h4>
-      <ul>
+      <ul class="experience-list">
         <li>Conducted ISO 27001 and COBIT-based compliance checks across internal controls.</li>
         <li>Performed cybersecurity risk assessments and documented risk findings and treatment actions.</li>
         <li>Contributed to internal audit activities, including evidence collection and audit preparation.</li>
@@ -426,7 +426,7 @@
     <div class="experience-item mb-4">
       <h3>Cybersecurity Trainer & Organizer – Cyber Kingdom Bootcamp</h3>
       <h4>Applied Science Private University | Jul – Aug 2025</h4>
-      <ul>
+      <ul class="experience-list">
         <li>Delivered cybersecurity training sessions covering encryption fundamentals and algorithms.</li>
         <li>Coordinated the bootcamp and final CTF competition with 177+ participants.</li>
         <li>Contributed as a content writer and event organizer.</li>
@@ -438,7 +438,7 @@
     <div class="experience-item mb-4">
       <h3>Graduation Project – Real-time Detection of Malicious PowerShell Commands</h3>
       <h4>Applied Science University | Nov 2024 – Jun 2025</h4>
-      <ul>
+      <ul class="experience-list">
         <li>Developed a real-time threat prevention system integrating AI (GraphCodeBERT) and AMSI API.</li>
         <li>Achieved up to 99.5% accuracy in session-level behavioral analysis of PowerShell commands.</li>
         <li>Conducted risk assessment aligned with NIST SP 800-30 and mapped threats to MITRE ATT&CK.</li>
@@ -452,7 +452,7 @@
     <div class="experience-item mb-4">
       <h3>Cybersecurity Youth Academy for Jordan</h3>
       <h4>May – Dec 2024 | Amman, Jordan</h4>
-      <ul>
+      <ul class="experience-list">
         <li>Completed intensive cybersecurity training designed by Purdue University, PSUT, and the US Embassy.</li>
         <li>Prepared risk assessment frameworks for PwC Jordan job shadowing, identifying vulnerabilities.</li>
         <li>Gained hands-on SOC experience with incident detection, threat response, and SIEM tools.</li>
@@ -465,12 +465,44 @@
 </section>
 
 <style>
-  .experience-divider {
-    border: 0;
-    height: 2px;
-    background-color: #007bff;
-    margin: 20px 0;
-  }
+.experience-item {
+  max-width: 1100px;
+  margin: 0 auto 40px;
+}
+
+.experience-item h3 {
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.experience-item h4 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.experience-list {
+  text-align: left;
+  margin: 0 auto;
+  padding-left: 25px;
+  max-width: 1050px;
+}
+
+.experience-list li {
+  margin-bottom: 14px;
+  padding-left: 8px;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.experience-divider {
+  margin-top: 30px;
+  border: 0;
+  border-top: 2px solid rgba(100, 180, 255, 0.35);
+}
 </style>
 
 
